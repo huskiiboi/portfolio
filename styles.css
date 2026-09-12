@@ -1,0 +1,25 @@
+
+
+:root {
+    --upper-gradient: #37496B;
+    --lower-gradient: #D1AD88;
+    --text-color: #FFFFFF;
+    --font: "Geist Pixel", sans-serif;
+}
+
+html {scroll-behavior: smooth}
+
+body {
+    font-family: var(--font);
+    background: linear-gradient(to bottom, var(--upper-gradient), var(--lower-gradient));
+    min-height: 100vh;
+    overflow: hidden;
+    color: var(--text-color);
+}
+
+.coming-soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
