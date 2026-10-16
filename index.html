@@ -7,12 +7,177 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section>
-        <h1 class="coming-soon">3.15.2007</h1>
+    <div class="stars" aria-hidden="true"></div>
+    <!-- navigation -->
+    <nav>
+        <ul class="pages" id="navbar">
+            <li><a href="index.html#projects">projects</a></li>
+            <li><a href="index.html#about">about me</a></li>
+            <li><a href="https://drive.google.com/file/d/1gKpkKw6wIKwHF6mA6qK-QnpMyE9fp_iQ/view?usp=sharing">résumé</a></li>
+        </ul>
+    <span class="page-underline"></span>
+    </nav>
+
+    <img class="moon" src="visuals/moon.png" alt="" aria-hidden="true">
+
+    <section class="heading">
+        <h1>Justin Gerardes</h1>
+        <p class="hero-subtitle">digital design portfolio</p>
     </section>
+
+    <div class="biplane-banner">
+        <img src="visuals/biplane-banner.png" alt="">
+    </div>
+
+    <section id="projects" class="projects">
+        <!-- Integrity Tax Defense project card-->
+        <article id="ITD" data-dialog="ITD-dialog" class="project-card" style="--card-border: #050F1A; --card-background: #071525;">
+            <div class="description">
+                <svg width="66" height="83" viewBox="0 0 158 201" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M81.6718 0.889648C81.6814 0.896157 81.701 0.908386 81.7285 0.926758C81.7877 0.966324 81.8885 1.03316 82.0312 1.125C82.3173 1.30917 82.7731 1.59491 83.4033 1.9707C84.664 2.72251 86.6259 3.83392 89.3349 5.20508C94.7526 7.94719 103.165 11.7322 114.947 15.7695C126.75 19.8137 136.313 22.2646 142.892 23.6992C146.18 24.4164 148.723 24.8793 150.425 25.1611C151.275 25.302 151.916 25.3978 152.335 25.457C152.544 25.4866 152.699 25.5069 152.796 25.5195C152.844 25.5258 152.878 25.5298 152.898 25.5322C152.907 25.5333 152.914 25.5347 152.917 25.5352H152.915L157.263 26.0498L157.326 30.4277L152.327 30.5C157.102 30.4313 157.317 30.4283 157.326 30.4287V30.4414C157.326 30.4501 157.327 30.4634 157.327 30.4805C157.328 30.5146 157.328 30.5652 157.329 30.6318C157.331 30.7652 157.334 30.9627 157.337 31.2207C157.343 31.7372 157.352 32.4966 157.363 33.4688C157.385 35.4133 157.412 38.2118 157.436 41.6299C157.482 48.4646 157.514 57.7843 157.451 67.7188C157.327 87.3924 156.837 110.066 155.269 120.261C153.674 130.625 150.814 138.253 145.677 145.612C140.689 152.757 133.648 159.488 124.214 168.178C114.471 177.151 103.758 185.053 95.5263 190.688C91.4005 193.513 87.875 195.784 85.3749 197.353C84.1246 198.137 83.1292 198.747 82.4423 199.163C82.099 199.371 81.8322 199.531 81.6494 199.64C81.5581 199.694 81.4872 199.736 81.4384 199.765C81.4144 199.779 81.3952 199.79 81.3818 199.798C81.3752 199.802 81.3691 199.805 81.3652 199.808C81.3634 199.809 81.3615 199.81 81.3603 199.811L81.3583 199.812L78.8271 195.5L81.3574 199.812L80.1855 200.5H77.3007L76.1289 199.812L78.6601 195.5L76.1279 199.812L76.1259 199.811C76.1247 199.81 76.1228 199.809 76.121 199.808C76.1171 199.805 76.1119 199.802 76.1054 199.798C76.092 199.79 76.0729 199.779 76.0488 199.765C76 199.736 75.9289 199.694 75.8378 199.64C75.655 199.531 75.388 199.371 75.0449 199.163C74.358 198.747 73.3625 198.137 72.1123 197.353C69.6122 195.784 66.0859 193.513 61.9599 190.688C53.7281 185.053 43.0149 177.151 33.2724 168.178C23.838 159.488 16.7983 152.757 11.8105 145.612C6.6729 138.253 3.81227 130.625 2.21772 120.261C0.649317 110.066 0.159228 87.3924 0.0351044 67.7188C-0.0275719 57.7843 0.00375635 48.4646 0.0507294 41.6299C0.0742212 38.2118 0.101443 35.4133 0.122995 33.4688C0.13377 32.4966 0.143712 31.7372 0.150339 31.2207C0.153649 30.9627 0.155358 30.7652 0.157175 30.6318C0.158083 30.5652 0.159626 30.5146 0.160104 30.4805V30.4287C0.160734 30.4281 0.217028 30.4289 5.1601 30.5L0.160104 30.4277L0.223581 26.0498L4.57124 25.5352H4.56928C4.57197 25.5348 4.57836 25.5334 4.58784 25.5322C4.6076 25.5298 4.64228 25.5258 4.69038 25.5195C4.78736 25.5069 4.94207 25.4866 5.15132 25.457C5.5701 25.3978 6.21092 25.302 7.06147 25.1611C8.76321 24.8793 11.3059 24.4164 14.5947 23.6992C21.1731 22.2646 30.7364 19.8138 42.539 15.7695C54.3218 11.7321 62.7345 7.94724 68.1523 5.20508C70.861 3.83407 72.8222 2.72252 74.083 1.9707C74.7129 1.59503 75.1689 1.30922 75.455 1.125C75.5979 1.03303 75.6995 0.966342 75.7587 0.926758C75.7859 0.908637 75.8047 0.896256 75.8144 0.889648L77.0966 0H80.3896L81.6718 0.889648ZM78.7431 10.8291C77.3037 11.6741 75.2909 12.7994 72.6679 14.127C66.8358 17.0788 57.9979 21.0443 45.7812 25.2305C33.5843 29.4098 23.647 31.9593 16.7255 33.4688C14.0595 34.0502 11.8396 34.4768 10.1103 34.7832C10.0915 36.6021 10.0696 38.9482 10.0507 41.6982C10.004 48.5041 9.97278 57.7784 10.0351 67.6562C10.161 87.6071 10.67 109.434 12.1015 118.739C13.5069 127.875 15.8976 133.997 20.0097 139.888C24.2718 145.993 30.4826 152.012 40.0478 160.822C49.3049 169.349 59.5913 176.947 67.6093 182.437C71.6081 185.174 75.0206 187.372 77.4267 188.882C77.9065 189.183 78.347 189.455 78.7431 189.7C79.1392 189.455 79.5797 189.183 80.0595 188.882C82.4656 187.372 85.8781 185.174 89.8769 182.437C97.895 176.947 108.182 169.349 117.439 160.822C127.005 152.012 133.214 145.993 137.477 139.888C141.589 133.997 143.979 127.875 145.385 118.739C146.816 109.434 147.326 87.6072 147.452 67.6562C147.514 57.7784 147.483 48.5041 147.436 41.6982C147.418 38.9482 147.395 36.6021 147.376 34.7832C145.647 34.4768 143.427 34.0501 140.762 33.4688C133.84 31.9593 123.903 29.4098 111.706 25.2305C99.4892 21.0443 90.6504 17.0788 84.8183 14.127C82.1953 12.7993 80.1825 11.674 78.7431 10.8291ZM85.8271 155H70.8271V150H75.8271L85.8271 139V155ZM86.8271 123L73.8271 141L34.8271 96H49.8271L70.3271 116L129.327 60L86.8271 123ZM85.8271 87L70.8271 101V42H85.8271V87Z" fill="#C2A24B"/>
+                </svg>
+                <h1>Integrity Tax Defense</h1>
+                <p>
+                    Designing and maintaining web content and promotional material for marketing purposes.<br>
+                    Developing the firms I.R.S. Written Information Security Plan to manage the security of client data.<br>
+                    Advising technical solutions to streamline operations and improve workflows.
+                </p>
+                <ul class="project-attributes">
+                    <li class="attribute" style="--attr-border: #122336; --attr-background: #050F1A;">HTML</li>
+                    <li class="attribute" style="--attr-border: #122336; --attr-background: #050F1A;">CSS</li>
+                    <li class="attribute" style="--attr-border: #122336; --attr-background: #050F1A;">Figma</li>
+                    <li class="attribute" style="--attr-border: #122336; --attr-background: #050F1A;">JavaScript</li>
+                    <li class="attribute" style="--attr-border: #122336; --attr-background: #050F1A;">Creative Cloud</li>
+                </ul>
+            </div>
+            <div class="photo">
+                <img src="visuals/Macbook Pro - ITD Mockup.png" alt="">
+            </div>
+        </article>
+        <!-- Freelance 3D modeller project card-->
+         <article id="aurora" data-dialog="aurora-dialog" class="project-card" style="--card-border: #191919; --card-background: #020406">
+            <div class="photo">
+                <img src="visuals/3D-Render-Showcase.png" alt=""> <!-- collection of 3d projects rendered in an image-->
+            </div>
+            <div class="description">
+                 <!-- insert aurora svg here -->
+                <svg width="100" height="100" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M123.849 130.5L145.5 168H102.199L123.849 130.5Z" fill="white"/>
+                    <path d="M98.8494 175.5L120.5 213H77.1987L98.8494 175.5Z" fill="white"/>
+                    <path d="M148.849 175.5L170.5 213H127.199L148.849 175.5Z" fill="white"/>
+                    <path d="M150.849 75.5L129.199 38H172.5L150.849 75.5Z" fill="white"/>
+                    <path d="M98.8494 74.5L77.1987 37H120.5L98.8494 74.5Z" fill="white"/>
+                    <path d="M123.849 209.5L102.199 172H145.5L123.849 209.5Z" fill="white"/>
+                    <path d="M46.5 164.5L24.8494 127H68.1506L46.5 164.5Z" fill="white"/>
+                    <path d="M46.5 84.5L68.1506 122H24.8494L46.5 84.5Z" fill="white"/>
+                    <path d="M72.5 118.5L50.8494 81H94.1506L72.5 118.5Z" fill="white"/>
+                    <path d="M72.5 38.5L94.1506 76H50.8494L72.5 38.5Z" fill="white"/>
+                    <path d="M203.5 165.5L225.151 128H181.849L203.5 165.5Z" fill="white"/>
+                    <path d="M203.5 85.5L181.849 123H225.151L203.5 85.5Z" fill="white"/>
+                    <path d="M177.5 119.5L199.151 82H155.849L177.5 119.5Z" fill="white"/>
+                    <path d="M177.5 39.5L155.849 77H199.151L177.5 39.5Z" fill="white"/>
+                </svg>
+                <h1>Freelance Modeller & Designer</h1>
+                <p>
+                    Creating 3D models & and graphic designs for use in game development in Roblox and Unreal engine.<br>
+                    Managed online storefront to market and sell models to developers. Sold 450+ copies of 3D models serving hundreds of customers since 2022.
+                </p>
+                <ul class="project-attributes">
+                    <li class="attribute" style="--attr-border: #191919; --attr-background: #131313;">Blender</li>
+                    <li class="attribute" style="--attr-border: #191919; --attr-background: #131313;">Figma</li>
+                    <li class="attribute" style="--attr-border: #191919; --attr-background: #131313;">Roblox Lua</li>
+                    <li class="attribute" style="--attr-border: #191919; --attr-background: #131313;">Creative Cloud</li>
+                </ul>
+            </div>
+         </article>
+    </section>
+
+    <!-- <dialog id="ITD-dialog" class="dialog" autofocus style="--card-border: #050F1A; --card-background: #071525">
+        <div class="dialog-content">
+            <div class="top-section">
+                <svg width="66" height="83" viewBox="0 0 158 201" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M81.6718 0.889648C81.6814 0.896157 81.701 0.908386 81.7285 0.926758C81.7877 0.966324 81.8885 1.03316 82.0312 1.125C82.3173 1.30917 82.7731 1.59491 83.4033 1.9707C84.664 2.72251 86.6259 3.83392 89.3349 5.20508C94.7526 7.94719 103.165 11.7322 114.947 15.7695C126.75 19.8137 136.313 22.2646 142.892 23.6992C146.18 24.4164 148.723 24.8793 150.425 25.1611C151.275 25.302 151.916 25.3978 152.335 25.457C152.544 25.4866 152.699 25.5069 152.796 25.5195C152.844 25.5258 152.878 25.5298 152.898 25.5322C152.907 25.5333 152.914 25.5347 152.917 25.5352H152.915L157.263 26.0498L157.326 30.4277L152.327 30.5C157.102 30.4313 157.317 30.4283 157.326 30.4287V30.4414C157.326 30.4501 157.327 30.4634 157.327 30.4805C157.328 30.5146 157.328 30.5652 157.329 30.6318C157.331 30.7652 157.334 30.9627 157.337 31.2207C157.343 31.7372 157.352 32.4966 157.363 33.4688C157.385 35.4133 157.412 38.2118 157.436 41.6299C157.482 48.4646 157.514 57.7843 157.451 67.7188C157.327 87.3924 156.837 110.066 155.269 120.261C153.674 130.625 150.814 138.253 145.677 145.612C140.689 152.757 133.648 159.488 124.214 168.178C114.471 177.151 103.758 185.053 95.5263 190.688C91.4005 193.513 87.875 195.784 85.3749 197.353C84.1246 198.137 83.1292 198.747 82.4423 199.163C82.099 199.371 81.8322 199.531 81.6494 199.64C81.5581 199.694 81.4872 199.736 81.4384 199.765C81.4144 199.779 81.3952 199.79 81.3818 199.798C81.3752 199.802 81.3691 199.805 81.3652 199.808C81.3634 199.809 81.3615 199.81 81.3603 199.811L81.3583 199.812L78.8271 195.5L81.3574 199.812L80.1855 200.5H77.3007L76.1289 199.812L78.6601 195.5L76.1279 199.812L76.1259 199.811C76.1247 199.81 76.1228 199.809 76.121 199.808C76.1171 199.805 76.1119 199.802 76.1054 199.798C76.092 199.79 76.0729 199.779 76.0488 199.765C76 199.736 75.9289 199.694 75.8378 199.64C75.655 199.531 75.388 199.371 75.0449 199.163C74.358 198.747 73.3625 198.137 72.1123 197.353C69.6122 195.784 66.0859 193.513 61.9599 190.688C53.7281 185.053 43.0149 177.151 33.2724 168.178C23.838 159.488 16.7983 152.757 11.8105 145.612C6.6729 138.253 3.81227 130.625 2.21772 120.261C0.649317 110.066 0.159228 87.3924 0.0351044 67.7188C-0.0275719 57.7843 0.00375635 48.4646 0.0507294 41.6299C0.0742212 38.2118 0.101443 35.4133 0.122995 33.4688C0.13377 32.4966 0.143712 31.7372 0.150339 31.2207C0.153649 30.9627 0.155358 30.7652 0.157175 30.6318C0.158083 30.5652 0.159626 30.5146 0.160104 30.4805V30.4287C0.160734 30.4281 0.217028 30.4289 5.1601 30.5L0.160104 30.4277L0.223581 26.0498L4.57124 25.5352H4.56928C4.57197 25.5348 4.57836 25.5334 4.58784 25.5322C4.6076 25.5298 4.64228 25.5258 4.69038 25.5195C4.78736 25.5069 4.94207 25.4866 5.15132 25.457C5.5701 25.3978 6.21092 25.302 7.06147 25.1611C8.76321 24.8793 11.3059 24.4164 14.5947 23.6992C21.1731 22.2646 30.7364 19.8138 42.539 15.7695C54.3218 11.7321 62.7345 7.94724 68.1523 5.20508C70.861 3.83407 72.8222 2.72252 74.083 1.9707C74.7129 1.59503 75.1689 1.30922 75.455 1.125C75.5979 1.03303 75.6995 0.966342 75.7587 0.926758C75.7859 0.908637 75.8047 0.896256 75.8144 0.889648L77.0966 0H80.3896L81.6718 0.889648ZM78.7431 10.8291C77.3037 11.6741 75.2909 12.7994 72.6679 14.127C66.8358 17.0788 57.9979 21.0443 45.7812 25.2305C33.5843 29.4098 23.647 31.9593 16.7255 33.4688C14.0595 34.0502 11.8396 34.4768 10.1103 34.7832C10.0915 36.6021 10.0696 38.9482 10.0507 41.6982C10.004 48.5041 9.97278 57.7784 10.0351 67.6562C10.161 87.6071 10.67 109.434 12.1015 118.739C13.5069 127.875 15.8976 133.997 20.0097 139.888C24.2718 145.993 30.4826 152.012 40.0478 160.822C49.3049 169.349 59.5913 176.947 67.6093 182.437C71.6081 185.174 75.0206 187.372 77.4267 188.882C77.9065 189.183 78.347 189.455 78.7431 189.7C79.1392 189.455 79.5797 189.183 80.0595 188.882C82.4656 187.372 85.8781 185.174 89.8769 182.437C97.895 176.947 108.182 169.349 117.439 160.822C127.005 152.012 133.214 145.993 137.477 139.888C141.589 133.997 143.979 127.875 145.385 118.739C146.816 109.434 147.326 87.6072 147.452 67.6562C147.514 57.7784 147.483 48.5041 147.436 41.6982C147.418 38.9482 147.395 36.6021 147.376 34.7832C145.647 34.4768 143.427 34.0501 140.762 33.4688C133.84 31.9593 123.903 29.4098 111.706 25.2305C99.4892 21.0443 90.6504 17.0788 84.8183 14.127C82.1953 12.7993 80.1825 11.674 78.7431 10.8291ZM85.8271 155H70.8271V150H75.8271L85.8271 139V155ZM86.8271 123L73.8271 141L34.8271 96H49.8271L70.3271 116L129.327 60L86.8271 123ZM85.8271 87L70.8271 101V42H85.8271V87Z" fill="#C2A24B"/>
+                </svg>
+                <h1>Integrity Tax Defense</h1>
+                <button class="close" aria-label="Close">
+                    <img src="visuals/dialog_close.png" alt="">
+                </button>
+            </div>
+            <div class="content-section">
+                <h2>Developing the web content</h2>
+                <p>
+                    Integrity’s website was initially made by GoDaddy’s website builder service. However, as the business grew, there became a need for greater control over customization and presentation of the brand.<br>
+                    I was tasked with creating a website capable of delivering valuable  information about the company’s services while also creating a visually appealing brand image. I began with a Figma design before hand-coding the website from scratch.<br>
+                    Today I am responsible finishing the deployment of the website and maintaining it for the long-term.
+                </p>
+            </div>
+            <img src="visuals/placeholder.jpg" alt="">
+
+        </div>
+    </dialog> -->
+
+    <section id="about" class="about">
+        <div class="about-contents">
+            <div class="about-block">
+                <h2>about me</h2>
+                <p>I’m 19 years old, from the Hudson Valley, New York and I’m currently studying Computer Science at Syracuse University</p>
+            </div>
+            <div class="about-block">
+                <h2>in my freetime</h2>
+                <p>I enjoy 3D modeling, graphic design, music and spending time with my two dogs Lilly and Kenny. Check out what I'm listening to!</p>
+            </div>
+            <div class="about-block">
+                <h2>my goal</h2>
+                <p>To utilize my background in Computer Science and digital creativity to improve the way we interact with technology.</p>
+            </div>
+        </div>
+        <ul class="select-music">
+            <li class="card" style="--card-border: #0C2A37">
+                <img src="visuals/moths.png" alt="">
+                <div class="card-text">
+                    <span claas="card-title">moths</span>
+                    <span class="card-artist">conan gray</span>
+                </div>
+            </li> <!-- moths -->
+            <li class="card" style="--card-border: #211F27">
+                <img src="visuals/stupid boy.jpeg" alt="">
+                <div class="card-text">
+                    <span class="card-title">stupid boy</span>
+                    <span class="card-artist">the neighbourhood</span>
+                </div>
+            </li> <!-- stupid boy -->
+            <li class="card" style="--card-border: #6D8092">
+                <img src="visuals/LUX.png" alt="">
+                <div class="card-text">
+                    <span class="card-title">sauvingnon blanc</span>
+                    <span class="card-artist">rosalia</span>
+                </div>
+            </li> <!-- sauvingnon blanc -->
+            <li class="card" style="--card-border: #241F1B">
+                <img src="visuals/me prometi.jpg" alt="">
+                <div class="card-text">
+                    <span class="card-title">me prometí</span>
+                    <span class="card-artist">ivan cornejo</span>
+                </div>
+            </li>  <!-- me prometi -->
+        </ul>
+    </section> 
+    
+    <footer class="footer">
+        <div class="credit">
+            <h2>made by Justin Gerardes</h2>
+        </div>
+        <ul>
+            <li><a href="mailto:justin.gerardes@gmail.com">Contact Me</a></li>
+            <li><a href="https://www.linkedin.com/in/justin-gerardes-66a850364/">LinkedIn</a></li>
+            <li><a href="https://github.com/huskiiboi">gitHub</a></li>
+        </ul>
+    </footer>
+    
+
+    <script src="control.js"></script>
 </body>
 </html>
